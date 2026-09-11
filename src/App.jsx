@@ -25,7 +25,7 @@ function Home() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ClubX---University-Club-Management">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
