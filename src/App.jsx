@@ -5,6 +5,7 @@ import Login from "./components/Login";
 import Events from "./components/Events";
 import Gallery from "./components/Gallery";
 import Mission from "./components/Mission";
+import ClubDetails from "./pages/ClubDetails";
 
 
 import "./App.css";
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/clubs/:slug" element={<ClubDetails />} />
         
       </Routes>
     </BrowserRouter>
